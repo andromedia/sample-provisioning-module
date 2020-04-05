@@ -1,0 +1,2 @@
+python -c "import ssl,pyone; url='https://YOUR NODEWEAVER IP'; print(pyone.OneServer(url, session='admin:cloud', context=ssl._create_unverified_context()).system.version())"
+#  you should receive a reply of ,,,  5.2.1
